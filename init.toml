@@ -28,7 +28,7 @@
 
     windows_index_type = 0
 
-    automatic_update = true
+    automatic_update = false
     guifont = "SauceCodePro Nerd Font Mono:h11"
     vimcompatible = true
     bootstrap_after = "myspacevim#after"
@@ -80,3 +80,6 @@
 [[custom_plugins]]
   repo = "vim-scripts/dbext.vim"
   merged = 0
+
+[[custom_plugins]]
+  repo = "ybian/smartim"

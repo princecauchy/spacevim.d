@@ -1,10 +1,6 @@
 func! myspacevim#after() abort
   set wrap
   set relativenumber
-  "输入法设置
-  "set noimd
-  "set imi=2
-  "set ims=2
 
   let g:neoformat_json_jsonpp = { 'exe': "json_pp", 'args': ['-json_opt', 'utf8,pretty'], 'stdin': 1 }
   let g:neoformat_enabled_json = ['jsonpp']
@@ -12,8 +8,17 @@ func! myspacevim#after() abort
   set nofoldenable
   
   "see https://github.com/darold/pgFormatter
-  let g:neoformat_sql_pgformat = { 'exe': 'pg_format', 'args': ['-B'], 'stdin': 1 }
-  let g:neoformat_enabled_sql = ['pgformat']
+   let g:neoformat_sql_pgformat = { 'exe': 'pg_format', 'args': ['-B'], 'stdin': 1 }
+   let g:neoformat_enabled_sql = ['pgformat']
+  
+   let g:smartim_default = 'com.apple.keylayout.ABC'
+  " let g:XkbSwitchLib = '/usr/local/lib/libxkbswitch.dylib'
+  " let g:XkbSwitchEnabled     = 1
+  " let g:XkbSwitchIMappings   = ['ABC']
+  " let g:XkbSwitchIMappingsTr = {'ABC': {'<': '', '>': ''}}
+  
+
+  
 endf
 
 
