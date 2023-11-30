@@ -55,6 +55,10 @@
   name = "lang#lua"
 [[layers]]
   name = "lang#plantuml"
+  plantuml_jar_path = "/Users/cauchy/bin/plantuml/plantuml-nodot.1.2023.7.jar"
+  viewer_path = "/Users/cauchy/Downloads"
+  debug_mode = 1
+  
 [[layers]]
   name = "lang#xml"
 
