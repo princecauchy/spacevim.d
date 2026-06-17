@@ -12,8 +12,8 @@ func! myspacevim#after() abort
    let g:neoformat_enabled_sql = ['pgformat']
   
    let g:smartim_default = 'com.apple.keylayout.ABC'
-  " let g:XkbSwitchLib = '/usr/local/lib/libxkbswitch.dylib'
-  " let g:XkbSwitchEnabled     = 1
+   let g:XkbSwitchLib = '/usr/local/lib/libxkbswitch.dylib'
+   let g:XkbSwitchEnabled     = 1
   " let g:XkbSwitchIMappings   = ['ABC']
   " let g:XkbSwitchIMappingsTr = {'ABC': {'<': '', '>': ''}}
   
